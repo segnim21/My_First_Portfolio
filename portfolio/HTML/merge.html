@@ -1,0 +1,42 @@
+<!DOCTYPE>
+<html lang="en">
+    <head>
+        <title>Merging cells</title>
+        <meta charset="utf-8">
+        <style>
+            body{
+                color: rgb(18, 223, 18);
+            }
+            table{
+                border-collapse: collapse;
+                
+            }
+       table, th,td{
+            border: 5px solid rgb(65, 6, 6);
+        }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+            <th colspan="2" scope="colgroup">Personal Info</th>
+            <th rowspan="2" scope="col"> Sport</th>
+            </tr>
+            <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            </tr>
+            <tr>
+                <th scope="row">John</th>
+                <td>30</td>
+                <td>Football</td>
+                <tr>
+                    <th scope="row">Alice</th>
+                    <td>34</td>
+                    <td>Basketball</td>
+                </tr>
+
+            </tr>
+        </table>
+    </body>
+</html>
